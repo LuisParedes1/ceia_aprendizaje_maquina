@@ -30,7 +30,7 @@ extraPaths = [
     "clase7/jupyter_notebooks"
 ]
 
-[tool.ty]
+[tool.ty.environment]
 extra-paths = [
     "clase2/jupyter_notebooks",
     "clase3/jupyter_notebooks",
