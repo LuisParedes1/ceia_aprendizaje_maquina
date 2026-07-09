@@ -18,6 +18,7 @@ def plot_boundary(  # noqa: PLR0913
     labels_axis=("x1", "x2"),
     legend=True,
     legend_title=None,
+    marker="o",
 ):
     # Hotfix for bug in matplotlib 3.8.0.
     # https://github.com/matplotlib/matplotlib/issues/26949/
@@ -61,6 +62,7 @@ def plot_boundary(  # noqa: PLR0913
             c=colormap_points[i],
             label=label_point[i],
             s=point_size,
+            marker=marker,
         )
 
     plt.xlabel(labels_axis[0])
